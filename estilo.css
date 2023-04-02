@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffffff;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #fffefe;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #0a0a0a; 
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #372a2a;
+}
