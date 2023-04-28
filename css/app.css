@@ -1,0 +1,118 @@
+:root {
+    --bs-blue: #037BC0;
+    --bs-green: #8cbc00;
+    --bs-black: #242422;
+    --bs-white: #f8f9fa;
+}
+html {
+    font-size: 50.5%;  /* 1 rem = 10px **/
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+@media (min-width: 768px) {
+    h2 {
+        font-size: 4rem;
+    }
+}
+h3 {
+    font-size: 2.4rem;
+}
+@media (min-width: 768px) {
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+
+
+/** Reescribir colores */
+.fondo-header,
+.peques {
+    background-color: var(--bs-black)!important;
+}
+
+
+.btn-success {
+    background-color: var(--bs-black)!important;
+}
+.bg-primary,
+.btn-primary {
+    background-color: var(--bs-black)!important;
+}
+
+
+/** MQ */
+
+@media (min-width:768px) {
+    .imagen-articulo img {
+        height: 45rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+.form-control {
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+/**Reloj**/
+@media (min-width: 768px) {
+    .section_clock{
+        padding-top: 10rem;  
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        grid-column: 2 / 3;
+        color: var(--bs-white);
+    }
+}
+
+@media (min-width: 768px) {
+    .time_clock{
+        font-size: 140%; /**tamaño de la hora**/
+    }
+}
+
+.nosotros {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+}
+.carrusel{
+    height: 15vh;
+  min-height: 200px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.articuloinput{
+    height: auto;
+    min-width: auto;
+    font-size: 50.5%;
+}
