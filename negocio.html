@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Nombre Página</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="fondo-header py-5 m-4 row">
+        <div class="col-xl-6">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-3 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                <a class="text-white text-decoration-none" href="actualidad.html">Actualidad</a>
+                <a class="text-white text-decoration-none" href="deporte.html">Deporte</a>
+                <a class="text-white text-decoration-none" href="negocio.html">Negocios</a>
+            </nav>
+        </div>
+        <div class="reloj col-xl-3">
+            <section class="section_clock">
+                <div class="container_clock">
+                    <h3 id="date"></h3>
+                    <h2 class="time_clock">00: 00: 00</h2>
+                </div>
+                <script src="js/app.js"></script>
+            </section>
+        </div>
+    </header>
+
+    <main class="container-xl py-5">
+        <h2 class="text-left my-5">Negocios<hr></h2>
+        <section class="listado">
+            <article>
+                <div class="row g-0 pt-5 mb-4">
+                    <div class="col-md-8 imagen-articulo">
+                        <div class="col-md-12 text-center p-5 text-black d-flex flex-column">
+                            <h3>Sercotec abre postulaciones para iniciativa que fortalece los gremios de pymes</h3>
+                        </div>
+                        <img class="img-fluid" src="img/sercotec.png" alt="imagen">
+                    </div>
+                    <div class="col-md-8 text-center p-5 text-black d-flex flex-column justify-content-center">
+                        <p>La nueva edición del programa “Fortalecimiento de Asociaciones Gremiales”, que es impulsada por Sercotec, 
+                            servicio dependiente del Ministerio de Economía, recibirá un aumento en el presupuesto del 60%. 
+                            En esta oportunidad, el monto que invertirá la institución en fortalecer los gremios de pymes en Chile 
+                            es de $879 millones.<hr></p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row pt-5 mb-4">
+                    <div class="col-md-8 imagen-articulo">
+                        <div class="col-md-12 text-center p-5 text-black d-flex flex-column">
+                            <h3>Estudiantes innovadores pronto podrán ser parte de un nuevo desafío hídrico</h3>
+                        </div>
+                        <img class="img-fluid" src="img/escurrete.jpg" alt="imagen">
+                    </div>
+                    <div class="col-md-8 text-center p-5 text-black d-flex flex-column justify-content-center"> 
+                        <p>Corfo y el Club de la Innovación, acaban de anunciar que lanzarán oficialmente un 
+                            nuevo desafío hídrico para la Región Metropolitana. La iniciativa, que se dará a conocer 
+                            el próximo 4 de abril, buscará impulsar proyectos innovadores de estudiantes de la educación
+                            superior de la capital, que apunten a mejorar el uso y consumo del agua a nivel agrícola, 
+                            doméstico y urbano en la ciudad.<hr></p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row pt-5 mb-4">
+                    <div class="col-md-8 imagen-articulo">
+                        <div class="col-md-12 text-center p-5 text-black d-flex flex-column">
+                            <h3>Producción industrial retoma las caídas en febrero al anotar un descenso de 1,1%</h3>
+                        </div>
+                        <img class="img-fluid" src="img/economia.jpg" alt="imagen">
+                    </div>
+                    <div class="col-md-8 text-center p-5 text-black d-flex flex-column justify-content-center">
+                        <p>Tras cortar en enero su negativa racha, la producción industrial en el país retomó las caídas. 
+                            Según informó hoy el Instituto Nacional de Estadísticas (INE), la producción cayó 1,1% en febrero, 
+                            comparado con el mismo mes de 2022. Lo anterior, debido a la incidencia negativa de uno de los tres sectores que lo componen.
+                            En concreto, la producción manufacturera determinó el resultado al decrecer 3,6%,
+                            producto de la baja interanual en fabricación de sustancias y productos químicos.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        
+    </main>
+
+    <footer class="fondo-header pt-5 mt-5 m-4 row">
+        <div class="col-xl-8">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-2 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                <a class="text-white text-decoration-none" href="nosotros.html">Nosotros</a>
+                <a class="text-white text-decoration-none" href="contacto.html">Contacto</a>
+                <a class="text-white text-decoration-none" href="Formulario.html">Sube tu Noticia</a>
+            </nav>
+        </div>
+            <p class="mt-5 text-center fs-2 text-white">ElFaro. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

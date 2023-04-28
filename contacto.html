@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+        <header class="fondo-header py-5 row bg-black">
+            <div class="col-xl-8">
+                <img class="fluid" src="img/faro-logo-white-5.png">
+            </div>
+            <div class="col-xl-2 mt-5">
+                <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                    <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                    <a class="text-white text-decoration-none" href="index.html">Actualidad</a>
+                    <a class="text-white text-decoration-none" href="deporte.html">Deporte</a>
+                    <a class="text-white text-decoration-none" href="negocio.html">Negocios</a>
+                </nav>
+            </div>
+    
+        </header>
+
+
+
+    <main class="container-xl py-5">
+        <h2 class="text-center my-5">Contacto</h2>
+
+        <div class="row justify-content-center">
+            <form class="col-md-8 needs-validation" novalidate>
+                <fieldset>
+                    <legend class="bg-primary text-center text-white fs-2">Tus Datos</legend>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre" required>
+                        <span class="invalid-feedback">Hubo un error...</span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="asunto">Asunto:</label>
+                        <input type="text" class="form-control" id="asunto" placeholder="Tu Asunto">
+                        <span class="valid-feedback">Muy bien!!</span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu Email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="tel">Teléfono:</label>
+                        <input type="tel" class="form-control" id="tel" placeholder="Tu Teléfono">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="tel">Mensaje:</label>
+                        <textarea class="form-control" rows="10"></textarea>
+                    </div>
+                </fieldset>
+
+                <div class="d-grid d-md-flex">
+                    <input class="btn btn-secondary fs-2 px-5 mt-5" type="submit" value="Enviar Formulario">
+                </div>
+            </form>
+        </div>
+        
+    </main>
+
+    <footer class="fondo-header pt-5 mt-5 m-4 row">
+        
+        <div class="col-xl-8">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-2 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                <a class="text-white text-decoration-none" href="nosotros.html">Nosotros</a>
+                <a class="text-white text-decoration-none" href="contacto.html">Contacto</a>
+                <a class="text-white text-decoration-none" href="Formulario.html">Sube tu Noticia</a>
+            </nav>
+        </div>
+            <p class="mt-5 text-center fs-2 text-white">ElFaro. Todos los derechos reservados</p>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

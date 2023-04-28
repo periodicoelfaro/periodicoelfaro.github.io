@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header class="fondo-header py-5 m-4 row bg-black">
+        <div class="col-xl-6">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-3 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                <a class="text-white text-decoration-none" href="actualidad.html">Actualidad</a>
+                <a class="text-white text-decoration-none" href="deporte.html">Deporte</a>
+                <a class="text-white text-decoration-none" href="negocio.html">Negocios</a>
+            </nav>
+        </div>
+        <div class="col-xl-3">
+            <section class="section_clock">
+                <div class="container_clock">
+                    <h3 id="date"></h3>
+                    <h3 class="time_clock">00: 00: 00</h3>
+                </div>
+                <script src="js/app.js"></script>
+            </section>
+        </div>
+    </header>
+
+    <div class="py-5 m-4 row ">
+        <div class=" container-xl row col-xl-12">
+            <div id="indicadores" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#indicadores" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner carrusel">
+                    <div class="carousel-item active" >
+                        <img class="mx-auto d-block" src="img/banner_oficial.png" alt="slide 1" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.coca-cola.cl" target="_blank"><img class="mx-auto d-block" src="img/COCACOLA.png" alt="slide 1" class="d-block" alt="imagen">
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://www.mcdonalds.cl" target="_blank"><img class="mx-auto d-block" src="img/mc_banner.png" alt="slide 1" class="d-block" alt="imagen">  
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <a href="https://www.spotify.com/cl/premium/" target="_blank"><img class="mx-auto d-block" src="img/spo_banner.png" alt="slide 1" class="d-block w-100" alt="imagen" alt="banner 1"> 
+                        </a>
+                    </div>
+    
+                    <button type="button" class="carousel-control-prev" data-bs-target="#indicadores" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+    
+                    <button type="button" class="carousel-control-next" data-bs-target="#indicadores" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-xl py-5 gx-5">
+        <h2 class="text-center my-5">Últimas Noticias</h2>
+
+        <div class="row mt-5">
+            <main class="col-md-8">
+                <div class="row g-0 pt-5 mb-4">
+                    <div class="col-md-8 imagen-articulo">
+                        <img class="img-fluid" src="img/donald.jpeg" alt="imagen">
+                    </div>
+                    <div class=" col-md-4 bg-primary text-center p-5 text-white d-flex flex-column justify-content-center">
+                        <h3>¿Podria ir Donald Trump a la carcel?</h3>
+                        <p>La pregunta es inevitable. ¿Cómo sigue la película judicial y política de Donald Trump? El expresidente está dispuesto a escribir con letras gruesas los capítulos restantes
+                            de esta historia.</p>
+                        <a class="btn btn-success fs-3 fw-bold text-uppercase py-3" href="actualidad.html">Leer Mas</a>
+                    </div>
+    
+                    <div class="row g-0 pt-5 mb-4">
+                        <div class="col-md-8 imagen-articulo">
+                            <img class="img-fluid" src="img/chatgpt.jpeg" alt="imagen">
+                        </div>
+                        <div class="col-md-4 bg-primary text-center p-5 text-white d-flex flex-column justify-content-center">
+                            <h3>Si creias que chatgpt era bueno, preparate para GPT-5</h3>
+                            <p>Según ha filtrado el desarrollador Siqi Chen, el fin del entrenamiento de GPT-5 está planeado para el próximo mes de diciembre.</p>
+                            <a class="btn btn-success fs-3 fw-bold text-uppercase py-3" href="actualidad.html">Leer Mas</a>
+                        </div>
+                    </div>
+
+                    <div class="row g-0 pt-5 mb-4">
+                        <div class="col-md-8 imagen-articulo">
+                            <img class="img-fluid" src="img/chiledavis.jpg" alt="imagen">
+                        </div>
+                        <div class="col-md-4 bg-primary text-center p-5 text-white d-flex flex-column justify-content-center">
+                            <h3>Chile tiene duros rivales para las finales de la Copa Davis</h3>
+                            <p>Canadá, Italia y Suecia son los rivales que debera enfrentar Chile en la proxima version de la Copa Davis.</p>
+                            <a class="btn btn-success fs-3 fw-bold text-uppercase py-3" href="deporte.html">Leer Mas</a>
+                        </div>
+                    </div>
+
+                    <div class="row g-0 pt-5 mb-4">
+                        <div class="col-md-8 imagen-articulo">
+                            <img class="img-fluid" src="img/intoxicados.png" alt="imagen" >
+                        </div>
+                        <div class="col-md-4 bg-primary text-center p-5 text-white d-flex flex-column justify-content-center">
+                            <h3>Casi 100 intoxicados en las últimas 24 horas por contaminacion en Quintero</h3>
+                            <p>Desde el departamento de Salud de Quintero lamentaron que en menos de un mes se hayan registrado episodios
+                                de personas intoxicadas.</p>
+                            <a class="btn btn-success fs-3 fw-bold text-uppercase py-3" href="actualidad.html">Leer Mas</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="aside col-md-4 ps-5">
+                <h3 class="my-5 text-center">Otras noticias</h3>
+                
+                <ul class=" peques mt-5 text-white p-5">                   
+                    <li class="row mb-5  border border-white p-2">
+                        <img class="img-fluid rounded-circle col-4" src="img/maratoncopia.jpg">
+                            <p class="col-8 text-center ">Media maraton de Viña del Mar refresca calendario de carreras</p>
+                            <a class="text-end text-decoration-none text-white" href="deporte.html">Leer mas...</a>                                               
+                    </li>
+
+                    <li class="row mb-5 border border-white p-2">
+                        <img class="img-fluid rounded-circle col-4" src="img/escurretecopia.jpg">
+                        <p class="col-8 text-center" >Estudiantes innovadores pronto podrán ser parte de un nuevo desafío hídrico</p>
+                        <a class="text-end text-decoration-none text-white" href="negocio.html">Leer mas...</a>
+                    </li>
+ 
+                    <li class="row mb-5 border border-white p-2">
+                        <img class="img-fluid rounded-circle col-4" src="img/sercotec.png">
+                        <p class="col-8 text-center">Sercotec abre postulaciones para iniciativa que fortalece los gremios de pymes</p>
+                        <a class="text-end text-decoration-none text-white" href="negocio.html">Leer mas...</a>
+                    </li>
+
+                    <li class="row border border-bottom-5 border-white p-2">
+                        <img class="img-fluid rounded-circle col-4" src="img/economia.jpg">
+                        <p class="col-8 text-center">Producción industrial retoma las caídas en febrero al anotar un descenso de 1,1%.</p>
+                        <a class="text-end text-decoration-none text-white" href="negocio.html">Leer mas...</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+    </section>
+
+
+    <footer class="fondo-header pt-5 mt-5 m-4 row">
+        <div class="col-xl-8">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-2 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold p-5">
+                <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                <a class="text-white text-decoration-none" href="nosotros.html">Nosotros</a>
+                <a class="text-white text-decoration-none" href="contacto.html">Contacto</a>
+                <a class="text-white text-decoration-none" href="Formulario.html">Sube tu Noticia</a>
+            </nav>
+        </div>
+    
+<footer>         
+            <div id="sfcut1a1yssw4bq9bj3kbzckn9q1h3u1et7"></div>
+    <script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=ut1a1yssw4bq9bj3kbzckn9q1h3u1et7&down=async" async></script>
+   <snoscript><a title="contador de visitas Periodico El Faro">
+    <img src="https://counter2.optistats.ovh/private/contadorvisitasgratis.php?c=ut1a1yssw4bq9bj3kbzckn9q1h3u1et7" border="0" title="contador de visitas Periodico El Faro" alt="contador de visitas Periodico El Faro"></a></noscript>
+    
+    <p class="mt-5 text-center fs-2 text-white">ElFaro. Todos los derechos reservados</p>
+
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
