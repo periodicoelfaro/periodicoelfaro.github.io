@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Donald Trump</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
 
+
+    <header class="fondo-header py-5 m-4 row bg-black">
+        <div class="col-xl-6">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-3 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                <a class="text-white text-decoration-none" href="index.html">Inicio</a>
+                <a class="text-white text-decoration-none" href="actualidad.html">Actualidad</a>
+                <a class="text-white text-decoration-none" href="deporte.html">Deporte</a>
+                <a class="text-white text-decoration-none" href="negocio.html">Negocios</a>
+            </nav>
+        </div>
+        <div class="col-xl-3">
+            <section class="section_clock">
+                <div class="container_clock">
+                    <h3 id="date"></h3>
+                    <h3 class="time_clock">00: 00: 00</h3>
+                </div>
+                <script src="js/app.js"></script>
+            </section>
+        </div>
+    </header>
+
+
+    <main class="container-xl py-5">
+        <article>
+            <div class="row pt-5 mb-4">
+                
+                <div class="col-md-8 imagen-articulo">
+                    <div class="col-md-12 text-center p-5 text-black d-flex flex-column">
+                        <h3>¿Podria ir Donald Trump a la carcel?</h3>
+                    </div>
+                    <img class="img-fluid" src="img/donald.jpeg" alt="imagen">
+                </div>
+                <div class="col-md-8 text-center p-5 text-black d-flex flex-column justify-content-center">
+                    <p>La pregunta es inevitable. ¿Cómo sigue la película judicial y política de Donald Trump? El expresidente está dispuesto a escribir con letras gruesas los capítulos restantes
+                        de esta historia sin precedentes en Estados Unidos.
+                        La personalidad del magnate –y sus abogados– anticipan que dará la batalla sin descanso y, lo que es más importante, que
+                        puede ser hábil en convertir su problema en oportunidad. Otra cosa es si será capaz de volver a agitar a las masas y trasformar su caso en una revuelta nacional.<hr></p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+
+    <footer class="fondo-header pt-5 mt-5 m-4 row">
+        <div class="col-xl-8">
+            <img class="fluid" src="img/faro-logo-white-5.png">
+        </div>
+        <div class="col-xl-2 mt-5">
+            <nav class="navbar-nav container d-flex flex-column text-center text-uppercase fw-bold">
+                <a class="text-white text-decoration-none" href="index.php">Inicio</a>
+                <a class="text-white text-decoration-none" href="nosotros.php">Nosotros</a>
+                <a class="text-white text-decoration-none" href="contacto.php">Contacto</a>
+                <a class="text-white text-decoration-none" href="Formulario.php">Sube tu Noticia</a>
+            </nav>
+        </div>
+            <p class="mt-5 text-center fs-2 text-white">ElFaro. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
